@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    .lato-regular {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+
+/* antd override */
+/* input{
+    border-radius: 2px !important;
+    border: 1px solid rgba(128, 128, 128, 0.521);
+    height: 40px !important;
+}
+input:focus{
+    outline: none;
+    box-shadow: none !important;
+    border: 1px solid gray;
+}
+label{
+    font-size: 16px !important;
+    color: black;
+}
+
+.ant-form-item{
+    margin: 10px 0 !important;
+}
+
+/* comon style */
+/* .card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.normle-text{
+    font-size: 1rem;
+}
+.card{
+    box-shadow: 0 0 2px gray;
+    border-radius: 0 !important;
+}
+.primary-button{
+    background-color: #1F1300 !important;
+    border-color: #1F1300 !important;
+    height: 40px !important;
+    width: 100% !important;
+    color:#FAF7F3 !important;
+    font-size: 16px !important;
+}
+.anchor{
+    color: black !important;
+    text-decoration: underline ;
+    font-size: 16px !important;
+}
+.anchor:hover{
+    text-decoration: underline !important;
+}
+
+/*authentication pages */
+
+
+/* .authentication{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.authentication-form{
+    width: 400px;
+    background-color: #faf7f387;  
+    
+}
+
+.authentication .card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #1f1300dc;
+    color: #FAF7F3;
+    max-width: max-content;
+    padding: 7px 15px;
+    margin-left: -50px;
+    border-bottom-left-radius: 10px;
+
+}*/
+.spinner-parent{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #787373c8;
+    position :fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+    width:100%;
+    height:100%;
+
+
+}
+.spinner-border{
+    width : 80px;
+    height : 80px;
+
+} 
+
+
+

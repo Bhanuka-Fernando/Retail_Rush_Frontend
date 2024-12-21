@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600;700&display=swap');
+
+.bfbhbanner-heading hr{
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  height: 2px;
+  background-color: #000;
+}
+
+
+.banner-form-container {
+  width: 60%;
+  max-width: 850px;
+  background-color: #ebebeb; /* Use pure white for a clean base */
+  border-radius: 15px; /* Slightly rounder corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+  padding: 40px;
+  margin: 80px auto;
+}
+
+.banner-form-group {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack the label and input vertically */
+  margin-bottom: 20px; /* Space between input groups */
+}
+
+.label-input-container {
+  display: flex; /* Align label and input in a row */
+  align-items: center; /* Center align them vertically */
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+.form-label {
+  width: 30%; /* Set a fixed width for labels to align properly */
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  font-family: "Kanit", sans-serif;
+  text-align: left; /* Left align the text */
+  margin-right: 10px; /* Space between label and input */
+}
+
+.form-input {
+  width: 70%; /* Set input width to complement label width */
+  padding: 12px;
+  margin-top: 5px; /* Optional: space above input */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
+}
+
+.form-input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3); /* Blue glow on focus */
+}
+
+.form-actions {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center the buttons horizontally */
+  margin-top: 30px; /* Space above buttons */
+}
+
+.DFbtn {
+  padding: 12px 24px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 350px; /* Optional: make buttons the same width */
+}
+
+.DFbtn:hover {
+  transform: translateY(-3px);
+}
+
+.dItemSaveBtn {
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 15px; /* Adds space between Save and Cancel buttons */
+}
+
+.dItemSaveBtn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.dItemCancelBtn {
+  background-color: #ffffff;
+  color: #333;
+  border: 2px solid #d32f2f;
+}
+
+.dItemCancelBtn:hover {
+  background-color: #d32f2f;
+  color: #ffffff;
+}
+
+/* Heading Styles */
+.bfbhbanner-heading h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .banner-form-container {
+    padding: 20px; /* Less padding on smaller screens */
+  }
+
+  .DFbtn {
+    width: 100%; /* Full width for buttons on smaller screens */
+  }
+}
+
+
+.form-input-container {
+  position: relative;
+}
+
+.form-input {
+  width: 100%;
+  padding-right: 100px; /* Adjust to make room for the button */
+}
+
+.form-upload-btn {
+  position: absolute;
+  right: -100px;
+  top: 30%;
+  background-color: #f86b6b;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.form-file-input {
+  display: none; /* Hide the actual file input */
+}

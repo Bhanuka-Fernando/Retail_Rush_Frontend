@@ -1,0 +1,115 @@
+/* SelectItemModal.css */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Slightly darker overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #ffffff; /* White background for the modal */
+  padding: 50px;
+  border-radius: 8px; /* Slightly more rounded corners */
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+.modal-content h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -20px;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-align: left;
+}
+
+.modal-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; /* Space between title and list */
+}
+
+.modal-content li {
+  cursor: pointer;
+  padding: 12px;
+  border: 1px solid #cccbcb; /* Light gray border */
+  margin-bottom: 10px;
+  transition: background 0.3s, transform 0.3s; /* Smooth transition */
+  background-color: #eaeaea;
+}
+
+.modal-content li:hover {
+  background: #eaeaea; /* Light gray on hover */
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+button {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Consistent button text size */
+  margin-top: 20px; /* Space above the button */
+  transition: background 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #444; /* Dark gray on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+button:focus {
+  outline: none; /* Remove default outline on focus */
+}
+
+button:active {
+  transform: scale(0.98); /* Slightly shrink on click */
+}
+
+
+.modelBtnDis{
+  margin-left: 140px;
+  width: 180px;
+}
+
+
+.search-input {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+
+.search-container {
+  position: relative;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.search-input {
+  width: 50%;
+  padding: 8px 40px; /* Add padding to prevent overlap with the icon */
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.search-icon {
+  margin-right: 100px;
+  position: absolute;
+  left: 10px; /* Positioning from the left */
+  top: 38%;
+  transform: translateY(-50%); /* Centering the icon vertically */
+  font-size: 16px; /* Adjust the size of the icon */
+  color: #aaa; /* Color of the icon */
+}

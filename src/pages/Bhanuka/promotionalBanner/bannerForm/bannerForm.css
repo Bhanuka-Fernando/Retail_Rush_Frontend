@@ -1,0 +1,199 @@
+.banner-heading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .banner-heading h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .banner-heading hr {
+    width: 100px;
+    margin: 10px auto;
+    border-top: 2px solid #4f46e5;
+  }
+  
+  .banner-heading h3 {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .bfbabanner-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #cecece;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .bfbaform-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .bfbaform-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .bfbaform-input:focus {
+    border-color: #4f46e5;
+    outline: none;
+  }
+  
+  .bfbaform-actions {
+    text-align: center;
+  }
+  
+  .bfbabanner-btn {
+    margin-bottom: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 48%; /* Adjust width to fit both buttons */
+  }
+  
+  .bfbabanner-cancel-btn {
+    background-color: #ffffff;
+    color: #333;
+    border: 2px solid #d32f2f;
+  }
+  
+  .bfbabanner-cancel-btn:hover {
+    background-color: #d32f2f;
+    color: #ffffff;
+  }
+  
+  .bfbabanner-save-btn {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .bfbabanner-save-btn:hover {
+    background-color: #4338ca;
+  }
+  
+  .bfbabanner-save-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.5);
+  }
+  
+  .error-message {
+    color: #e53e3e;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .form-actions {
+      flex-direction: column;
+    }
+  
+    .banner-btn {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .banner-save-btn {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner-heading h1 {
+      font-size: 24px;
+    }
+  
+    .banner-heading h3 {
+      font-size: 16px;
+    }
+  
+    .form-input {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .banner-btn {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+  }
+  
+
+  .bfbanner-heading {
+    text-align: left; /* Ensure heading is left-aligned */
+    font-family: "Kanit", sans-serif;
+    color: #000000;
+    margin: 20px 0 10px 20px;
+  }
+  
+  .bfbanner-heading h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+  
+  .bfbanner-heading h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .bfbanner-heading hr {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    height: 2px;
+    background-color: #000;
+  }  
+
+
+  .bfbaform-input-container {
+    position: relative;
+  }
+  
+  .bfbaform-input {
+    width: 100%;
+    padding-right: 100px; /* Make space for the button */
+  }
+  
+  .bfbaform-upload-btn {
+    position: absolute;
+    right: 20px;
+    top: 20%;
+    background-color: #f86b6b;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  
+  .bfbaform-file-input {
+    display: none; /* Hide the actual file input */
+  }
+  

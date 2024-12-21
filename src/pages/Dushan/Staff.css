@@ -1,0 +1,47 @@
+.store-employees-page {
+    padding: 20px;
+  }
+  
+  .employee-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .edit-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .edit-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .edit-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .edit-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .edit-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-form button {
+    margin-right: 10px;
+  }
+  

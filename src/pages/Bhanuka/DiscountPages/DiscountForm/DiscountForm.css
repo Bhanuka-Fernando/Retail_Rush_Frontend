@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600;700&display=swap');
+
+.bfdfdiscountForm-container {
+  width: 80%;
+  max-width: 850px;
+  background-color: #cecece; /* Use pure white for a clean base */
+  border-radius: 15px; /* Slightly rounder corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+  padding: 50px;
+  margin: 50px auto;
+}
+
+.bfdfdiscountInputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Space between input sections */
+}
+
+.bfdfdivisionOne {
+  flex: 0 0 50%; /* Give more space to the left division */
+}
+.bfdfdivisionOne .bfdfform-label  {
+  margin-bottom: -8px;
+  font-size: 20px;
+}
+  
+.bfdfdivisionTwo {
+  flex: 0 0 30%; /* Reduce space for the image */
+}
+
+.bfdfdivisionTwo img{
+  margin-top: 40px;
+  margin-left: -80px;
+}
+
+
+.bfdfitem-image {
+  width: 100%;
+  height: auto; /* Keep aspect ratio */
+  border-radius: 10px; /* Rounded corners for image */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.bfdfform-label {
+  display: block; /* Block display for labels */
+  margin-bottom: 10px; /* Space below label */
+  font-weight: 550; /* Bold labels */
+  width: 400px;
+}
+
+.bfdfform-input {
+  width: 85%;/* Full width */
+  padding: 12px; /* Padding for inputs */
+  border: 1px solid #e0e0e0; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 15px; /* Space below inputs */
+}
+
+.bfdfform-input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 8px #007bff4d; /* Blue glow on focus */
+}
+
+.bfdferror-message {
+  color: red; /* Red color for error messages */
+  margin-bottom: 15px; /* Space below error message */
+}
+
+.bfdfinline-fields {
+  display: flex; /* Flex layout for inline fields */
+  justify-content: space-between; /* Space between groups */
+  margin-bottom: 20px; /* Space below the fields */
+  font-size: 20px;
+  margin-top: -7px;
+}
+
+
+.bfdfinline-group {
+  flex: 0 0 50%; /* width less than half space */
+  margin-right: 20px;
+}
+
+.bfdftime-input-group {
+  display: flex;
+  align-items: center; /* Align select elements and span */
+}
+
+.bfdftime-input-group select {
+  padding: 15px; /* Match padding with input fields */
+  border: 1px solid #e0e0e0; /* Consistent border color */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 14px; /* Match font size with input fields */
+  margin-right: 30px; /* Space between selects */
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
+  appearance: none; /* Remove default arrow */
+  background-color: #fff; /* White background */
+}
+
+.bfdftime-input-group select:focus {
+  border-color: #000000; /* Change border color on focus */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3); /* Blue glow on focus */
+}
+
+/* Custom arrow for select elements */
+.bfdftime-input-group select::-ms-expand {
+  display: none; /* Hide default dropdown arrow in IE */
+}
+
+.bfdftime-input-group select::after {
+  content: "▼"; /* Custom arrow */
+  position: absolute;
+  right: 20px;
+  pointer-events: none; /* Prevent interaction with arrow */
+}
+.bfdftime-input-group span{
+  margin-right: 30px;
+}
+
+/* Adjusting the layout for smaller screens */
+@media screen and (max-width: 768px) {
+  .bfdfdiscountInputs {
+    flex-direction: column; /* Stack input sections vertically */
+  }
+
+  .bfdfdivisionTwo {
+    flex: 0 0 100%; /* Full width for image on small screens */
+    margin-top: 15px; /* Space above image */
+  }
+
+  .bfdfinline-fields {
+    flex-direction: column; /* Stack inline fields vertically */
+  }
+
+  .bfdfinline-group {
+    flex: 0 0 100%; /* Full width for each group */
+  }
+
+  .bfdftime-input-group {
+    flex-direction: column; /* Stack time selects vertically on small screens */
+  }
+
+  .bfdftime-input-group select {
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 10px; /* Space between stacked selects */
+  }
+}
+
+
+.bfdfform-actions {
+  margin-top: 40px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.bfdfDFbtn  {
+  margin-bottom: 0px;
+  padding: 12px 24px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 48%; /* Adjust width to fit both buttons */
+}
+
+.bfdfdItemSaveBtn  {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.bfdfdItemSaveBtn:hover {
+  background-color: #0056b3;
+}
+
+.bfdfdItemCancelBtn {
+  background-color: #ffffff;
+  color: #333;
+  border: 2px solid #d32f2f;
+}
+
+.bfdfdItemCancelBtn:hover {
+  background-color: #d32f2f;
+  color: #ffffff;
+}
+
+
+
+
+.bfdfDiscount_heading {
+  text-align: left; /* Ensure heading is left-aligned */
+  font-family: "Kanit", sans-serif;
+  color: #000000;
+  margin: 20px 0 10px 20px;
+}
+
+.bfdfDiscount_heading h3{
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-align: left;
+}
+
+
+
+
+
+.bfdfselect-item-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+.bfdfselect-item-button {
+  position: absolute;
+  right: 55px;
+  top: -18%;
+  background-color: #f86b6b;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.bfdfselect-item-button:hover {
+  background-color: #0056b3;
+}

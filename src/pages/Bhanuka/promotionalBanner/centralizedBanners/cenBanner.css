@@ -1,0 +1,172 @@
+.centralized-banner-container {
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  .banners-list {             /* Use flexbox for horizontal layout */
+    flex-wrap: wrap;           /* Allow wrapping of items */
+    gap: 20px;                 /* Gap between banner items */
+    justify-content: flex-start; /* Align items to the start */
+    margin-left: 50px;
+  
+  }
+  
+  .banner-item {
+    width: 900px;              /* Width for each banner item */
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: left;          /* Align text to the left */
+    margin-bottom: 30px;
+  }
+  
+  .banner-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .banner-image {
+    display: flex;             /* Flexbox for image alignment */
+    justify-content: center;   /* Center the image */
+    border-bottom: 1px solid #f0f0f0; /* Separator line */
+  }
+  
+  .banner-image img {
+    width: 100%;              /* Image takes full width */
+    height: 200px;            /* Fixed height for clarity */
+    object-fit: cover;        /* Maintain aspect ratio */
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .banner-details {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif; /* Ensure consistent font */
+  }
+  
+  .item-id {
+    font-size: 22px;          /* Larger font size for Item ID */
+    color: #333;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  
+  .store-id {
+    font-size: 12px;          /* Store ID font size */
+    color: #666;              /* Slightly lighter color */
+    margin-top: -3px;
+  }
+  
+  .banner-actions {
+    margin-top: 15px;         /* Adjust margin for better spacing */
+    display: flex;            /* Flexbox for action buttons */
+    justify-content: space-between; /* Space buttons evenly */
+  }
+  
+  .update-btn,
+  .delete-btn {
+    padding: 10px 15px;       /* Padding for buttons */
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .update-btn {
+    background-color: #000;    /* Black for Update */
+    color: white;
+  }
+  
+  .update-btn:hover {
+    background-color: #444;     /* Darker shade on hover */
+    transform: scale(1.05);     /* Scale effect on hover */
+  }
+  
+  .delete-btn {
+    background-color: #c0392b;  /* Dark red for Delete */
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #a93226;   /* Darker shade on hover */
+    transform: scale(1.05);       /* Scale effect on hover */
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: #e74c3c;              /* Red color for errors */
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+
+  .bfcbdDiscount_heading {
+    text-align: left; /* Ensure heading is left-aligned */
+    font-family: "Kanit", sans-serif;
+    color: #000000;
+    margin: 20px 0 10px 20px;
+  }
+  
+  .bfcbdDiscount_heading h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+  
+  .bfcbdDiscount_heading h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .bfcbdDiscount_heading hr {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    height: 2px;
+    background-color: #000;
+  }
+
+  .bfcbdDiscount_heading {
+    text-align: center; /* Center text and inline elements */
+  }
+  
+
+  .cssUEbtn{
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  .BactBtn {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: #094b00; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    font-family: 'Roboto', sans-serif; /* Font family */
+    text-transform: uppercase; /* Capitalize text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  .BactBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  .BactBtn a {
+    color: white; /* Ensure link inside button is white */
+    text-decoration: none; /* Remove underline from link */
+  }
+  

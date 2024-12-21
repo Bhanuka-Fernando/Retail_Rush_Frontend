@@ -1,0 +1,166 @@
+.discount-container-unique {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  .discount-item-container-unique {
+    margin-top: 20px;
+    width: 270px; /* Width for better presentation */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-left: 50px; /* Left margin for spacing */
+    text-align: left; /* Align text to the left for better readability */
+  }
+  
+  .discount-item-container-unique:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .discount-image-unique img {
+    width: 100%;
+    height: 200px; /* Height for clarity */
+    object-fit: cover;
+    border-bottom: 1px solid #ffffff;
+
+  }
+  
+  .discount-details-unique {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left; /* Ensure details are left-aligned */
+  }
+  
+  .item-name {
+    font-size: 22px; /* Larger font size for item name */
+    color: #333;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  
+  .shop-name {
+    font-size: 12px; /* Shop name font size */
+    color: #666; /* Slightly lighter color for differentiation */
+    margin-top: -3px;
+  }
+  
+  .discount-percentage {
+    font-size: 18px;
+    color: #e74c3c; /* Bright color for discount percentage */
+    margin: 10px 0;
+    text-align: left; /* Align discount percentage to the left */
+  }
+  
+  .discount-details-unique p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+    text-align: left; /* Align paragraph text to the left */
+  }
+  
+  .discount-actions-unique {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left; /* Align items left */
+  }
+  
+  .discount-actions-unique span {
+    padding: 10px 15px; /* Reduced padding for a more compact look */
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .delete-btn-unique {
+    background-color: #c0392b; /* Dark red */
+    color: white;
+  }
+  
+  .delete-btn-unique:hover {
+    background-color: #a93226; /* Darker shade on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  .update-btn-unique {
+    background-color: #000; /* Black */
+    color: white;
+  }
+  
+  .update-btn-unique:hover {
+    background-color: #444; /* Darker shade on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  /* Heading styles */
+  .bfcdDiscount_heading {
+    text-align: left; /* Ensure heading is left-aligned */
+    font-family: "Kanit", sans-serif;
+    color: #000000;
+    margin: 20px 0 10px 20px;
+  }
+  
+  .bfcdDiscount_heading h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+  
+  .bfcdDiscount_heading h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .bfcdDiscount_heading hr {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    height: 2px;
+    background-color: #000;
+  }
+
+  .actBtn {
+    width: 250px;
+    margin-left: 80px;
+    background-color: #094b00; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    font-family: 'Roboto', sans-serif; /* Font family */
+    text-transform: uppercase; /* Capitalize text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .actBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  .actBtn a {
+    color: white; /* Ensure link inside button is white */
+    text-decoration: none; /* Remove underline from link */
+  }
+  
+  
+.cenBtnDR{
+  text-align: center;
+  margin-left: -150px;
+  margin-top: 50px;
+}

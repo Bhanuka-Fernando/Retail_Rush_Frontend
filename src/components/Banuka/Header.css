@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  background-color: black;
+}
+
+.logo {
+  /* Customize logo styling here if needed */
+}
+
+.menu {
+  flex-grow: 1; /* Allow menu to take available space */
+}
+
+.menu a {
+  font-weight: 600;
+  color: #fff;
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.menu .ant-menu-item {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.menu .ant-menu-item:hover a {
+  color: #d1d1d1; /* Change color to red on hover */
+}
+
+.search {
+  margin-left: auto; /* Align search bar to the right */
+}
+
+/* Hover effect for HeartOutlined icon */
+.heart-icon {
+  font-size: 20px;
+  color: white;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.heart-icon:hover {
+  color: red; /* Change color to red on hover */
+}

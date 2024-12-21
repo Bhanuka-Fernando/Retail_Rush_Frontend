@@ -1,0 +1,47 @@
+/* ItemGrid.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between items */
+  padding: 20px; /* Padding around the grid */
+}
+
+.item-card {
+  display: flex;
+  justify-content: center; /* Center the card */
+}
+
+.item-card > div {
+  width: 250px; /* Make the card take the full width */
+  background-color: #fff; /* White background for the card */
+  /*border: 1px solid #e0e0e0;  Light grey border */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease; /* Smooth transform on hover */
+}
+
+.item-card > div:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.item-card img {
+  width: 100%; /* Full width image */
+  height: 200px; /* Fixed height */
+  object-fit:scale-down; /* Cover to maintain aspect ratio */
+  border-top-left-radius: 15px; /* Rounded corners for the top */
+  border-top-right-radius: 15px; /* Rounded corners for the top */
+}
+
+.item-card h2 {
+  font-size: 18px; /* Title font size */
+  margin: 10px 0; /* Margin for the title */
+  text-align: left; /* Center align the title */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.item-card p {
+  font-size: 14px; /* Description font size */
+  color: #555; /* Darker grey for description */
+  text-align: center; /* Center align the description */
+}
